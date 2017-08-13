@@ -1,8 +1,20 @@
 Rails.application.routes.draw do
 
+  get 'transactions/index'
+
+  get 'subscriptions/index'
+
+  post 'subscriptions/create'
+
+  put 'subscriptions/update'
+
+  delete 'subscriptions/delete'
+
+  get 'welcome/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  
+
   devise_for :users, controllers: { sessions: 'users/sessions' }
 
   # You can have the root of your site routed with "root"
