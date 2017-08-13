@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  patron_user_id: 1
+  solicitor_user_id: 1
+  monthly_price: 1
+
+two:
+  patron_user_id: 1
+  solicitor_user_id: 1
+  monthly_price: 1
